@@ -24,7 +24,7 @@ public class FactorialTest {
         Assert.assertEquals(expected, actual);
         
         // đừng quên còn nhiều tình huống/test case xài hàm
-        Assert.assertEquals(1720, MathUtil.getFactorial(6));
+        Assert.assertEquals(720, MathUtil.getFactorial(6));
         Assert.assertEquals(1, MathUtil.getFactorial(0));
         Assert.assertEquals(1, MathUtil.getFactorial(1));
         Assert.assertEquals(24, MathUtil.getFactorial(4));
